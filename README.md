@@ -1,6 +1,8 @@
 Callosum
 ============
 
+[![GoDoc](https://godoc.org/github.com/venkat/callosum?status.svg)](https://godoc.org/github.com/venkat/callosum)
+
 Callosum is a go package that helps build a corpus or collection from Twitter by recursively getting Twitter users and their tweets, friends, and followers. 
 
 Callosum builds this corpus by storing the user and tweet information in a sqlite database. Callosum uses the [kuruvi](https://github.com/venkat/kuruvi) Twitter API client, which respects Twitter's API rate limits.
